@@ -1,4 +1,4 @@
-FROM minio/mc:RELEASE.2020-02-05T20-07-22Z
+FROM minio/mc:RELEASE.2020-05-28T23-43-36Z
 
 COPY entrypoint.sh /entrypoint.sh
 

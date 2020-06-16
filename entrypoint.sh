@@ -12,3 +12,4 @@ mc rm --recursive --force "s3/$MIRROR_TARGET"
 
 # Execute mc mirror
 mc mirror $* "$MIRROR_SOURCE" "s3/$MIRROR_TARGET"
+ 
