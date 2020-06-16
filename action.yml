@@ -1,0 +1,9 @@
+name: 'S3 static release'
+author: 'debugerman'
+description: 'Release static files to S3 compatible object storage'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'  
+  color: 'green'
